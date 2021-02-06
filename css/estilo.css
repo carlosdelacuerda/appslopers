@@ -1,0 +1,165 @@
+
+:root {
+    --naranja: #ec902e;
+}
+
+h1 {
+    color: var(--naranja);
+    font-family: 'Yesteryear', cursive;
+    font-size: 3em;
+}
+h2 {
+  
+    font-family: 'Yesteryear', cursive;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #62666b;
+}
+
+footer {
+    background-color: #62666b;
+    color: white;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.bg-light {
+    background-color:transparent !important;
+}
+.navbar {    
+    background-color: transparent !important;
+    /* backdrop-filter: blur(6px) */
+}
+.navbar-light .navbar-brand {
+    color: white    ;
+    
+}
+.heroe {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    
+    color: white;
+    position: absolute;
+    opacity: 1;
+}
+
+
+body.home {
+    background-image: url('../imagenes/heroe.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header {
+    z-index: 2;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(6px)
+}
+.eslogan {
+    height: auto;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(6px);
+    max-width: 100%;
+}
+.eslogan img {
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+.center {
+    margin: 0 auto;
+}
+.padre-eslogan {
+    display: flex;
+   align-items: center;
+   }
+ul.navbar-nav {
+    margin-left: auto;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: var(--naranja);
+}
+figure img {
+    width: 100%;
+}
+main.servicios div, main figure {
+    display: inline-block;
+    margin-right: 0;
+}
+main.servicios div.col-md-8 {
+    width: 66%;
+    padding-left: 20px;
+}
+
+.card {
+    border: 0 solid transparent;
+    
+}
+
+.contenido-card {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.0);
+    transition: 0.2s;
+}
+.contenido-card:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.btn-primary {
+    background-color: var(--naranja);
+    border: 0;
+}
+.btn-primary:hover {
+    background-color: var(--naranja);
+}
+
+.empresa figure, .empresa p {
+    display: inline-block;
+}
+.empresa p {
+    margin-left: 10px;
+}
+
+.equipo .card {
+    display: inline-block;
+}
+
+.equipo figure {
+    padding: 20px 60px 0 60px;
+}
+
+.equipo .card img {
+    border-radius: 100%;
+}
+
+.equipo h3 {
+    color: var(--naranja);
+    font-weight: 700;;
+}
+/* resoponsive */
+@media (max-width:760px) {
+    main.servicios div.col-md-8 {
+        width: 100%;
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 768px){
+    .col-md-3 {width: 24%;}
+}
