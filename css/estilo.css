@@ -26,6 +26,11 @@ footer {
     font-weight: 700;
 }
 
+.contacto h4 img {
+    height: 50px;
+    margin-right: 10px;
+}
+
 .bg-light {
     background-color:transparent !important;
 }
@@ -45,6 +50,11 @@ footer {
     color: white;
     position: absolute;
     opacity: 1;
+}
+
+.formulario {
+    margin-left: auto;
+    margin-right: 0;
 }
 
 
@@ -146,6 +156,14 @@ main.servicios div.col-md-8 {
     color: var(--naranja);
     font-weight: 700;;
 }
+.mapa iframe {
+    max-height: 400px;
+    max-width: 100%;
+}
+
+
+
+
 /* resoponsive */
 @media (max-width:760px) {
     main.servicios div.col-md-8 {
